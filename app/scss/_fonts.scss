@@ -1,0 +1,8 @@
+@import "_mixins/font-face";
+
+@include font-face("Montserrat", "../fonts/montserrat/montserrat-regular");
+@include font-face("Montserrat", "../fonts/montserrat/montserrat-semibold", 600);
+
+@include font-face("Open Sans", "../fonts/opensans/opensans-regular");
+@include font-face("Open Sans", "../fonts/opensans/opensans-light", lighter);
+@include font-face("Open Sans", "../fonts/opensans/opensans-italic", normal, italic);
